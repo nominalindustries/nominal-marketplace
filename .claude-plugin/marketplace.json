@@ -8,22 +8,53 @@
   },
   "plugins": [
     {
-      "name": "spicypowers",
+      "name": "SpicyPowers",
+      "category": "productivity",
       "description": "Skills for working with a spicy brain: brain-dump intake, status translation, chunking, transitions, thread archetypes, and persistent tracking artifacts. No code required.",
       "source": {
         "source": "github",
         "repo": "nominalindustries/spicypowers"
       },
-      "category": "productivity"
+      "strict": false,
+      "skills": [
+        "./skills/brain-dump-intake",
+        "./skills/chunking",
+        "./skills/nominal-voice",
+        "./skills/research-adventures",
+        "./skills/riddle-me-this",
+        "./skills/sbtb",
+        "./skills/thread-archetypes",
+        "./skills/tracking-artifacts",
+        "./skills/transitions",
+        "./skills/using-spicypowers"
+      ]
     },
     {
       "name": "nominalpowers",
+      "category": "development",
       "description": "Engineering skills for Nominal Industries projects: the lead-thread workflow, subagent dispatch, external-validator discipline, staged TDD, and the Nominal Tauri scaffold.",
       "source": {
         "source": "github",
         "repo": "nominalindustries/nominalpowers"
       },
-      "category": "development"
+      "strict": false,
+      "skills": [
+        "./skills/code-review",
+        "./skills/complaint-driven-development",
+        "./skills/design-for-failure",
+        "./skills/dispatching-subagents",
+        "./skills/external-validators",
+        "./skills/finishing-a-branch",
+        "./skills/lead-thread-workflow",
+        "./skills/nominal-tauri-scaffold",
+        "./skills/parallel-dispatch",
+        "./skills/systematic-debugging",
+        "./skills/tdd-mode",
+        "./skills/using-nominalpowers",
+        "./skills/verification-before-completion",
+        "./skills/worktrees",
+        "./skills/writing-plans"
+      ]
     }
   ]
 }
