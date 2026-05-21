@@ -10,13 +10,19 @@
     {
       "name": "spicypowers",
       "description": "Skills for working with a spicy brain: brain-dump intake, status translation, chunking, transitions, thread archetypes, and persistent tracking artifacts. No code required.",
-      "source": "https://github.com/nominalindustries/spicypowers",
+      "source": {
+        "source": "github",
+        "repo": "nominalindustries/spicypowers"
+      },
       "category": "productivity"
     },
     {
       "name": "nominalpowers",
       "description": "Engineering skills for Nominal Industries projects: the lead-thread workflow, subagent dispatch, external-validator discipline, staged TDD, and the Nominal Tauri scaffold.",
-      "source": "https://github.com/nominalindustries/nominalpowers",
+      "source": {
+        "source": "github",
+        "repo": "nominalindustries/nominalpowers"
+      },
       "category": "development"
     }
   ]
