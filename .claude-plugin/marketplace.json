@@ -1,60 +1,31 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nominal-marketplace",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Nominal Industries plugin catalog: spicypowers (the spicy-brain operating layer) and nominalpowers (the engineering layer).",
   "owner": {
     "name": "Nominal Industries"
   },
   "plugins": [
     {
-      "name": "SpicyPowers",
+      "name": "spicypowers",
+      "displayName": "SpicyPowers",
       "category": "productivity",
       "description": "Skills for working with a spicy brain: brain-dump intake, status translation, chunking, transitions, thread archetypes, and persistent tracking artifacts. No code required.",
       "source": {
         "source": "github",
         "repo": "nominalindustries/spicypowers"
-      },
-      "strict": false,
-      "skills": [
-        "./skills/brain-dump-intake",
-        "./skills/chunking",
-        "./skills/nominal-voice",
-        "./skills/research-adventures",
-        "./skills/riddle-me-this",
-        "./skills/sbtb",
-        "./skills/thread-archetypes",
-        "./skills/tracking-artifacts",
-        "./skills/transitions",
-        "./skills/using-spicypowers"
-      ]
+      }
     },
     {
       "name": "nominalpowers",
+      "displayName": "Nominal Powers",
       "category": "development",
       "description": "Engineering skills for Nominal Industries projects: the lead-thread workflow, subagent dispatch, external-validator discipline, staged TDD, and the Nominal Tauri scaffold.",
       "source": {
         "source": "github",
         "repo": "nominalindustries/nominalpowers"
-      },
-      "strict": false,
-      "skills": [
-        "./skills/code-review",
-        "./skills/complaint-driven-development",
-        "./skills/design-for-failure",
-        "./skills/dispatching-subagents",
-        "./skills/external-validators",
-        "./skills/finishing-a-branch",
-        "./skills/lead-thread-workflow",
-        "./skills/nominal-tauri-scaffold",
-        "./skills/parallel-dispatch",
-        "./skills/systematic-debugging",
-        "./skills/tdd-mode",
-        "./skills/using-nominalpowers",
-        "./skills/verification-before-completion",
-        "./skills/worktrees",
-        "./skills/writing-plans"
-      ]
+      }
     }
   ]
 }
