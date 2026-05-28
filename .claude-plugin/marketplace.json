@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nominal-marketplace",
-  "version": "0.3.0",
   "description": "Nominal Industries plugin catalog: spicypowers (the spicy-brain operating layer) and nominalpowers (the engineering layer).",
   "owner": {
     "name": "Nominal Industries"
@@ -30,7 +29,7 @@
     {
       "name": "sparkypowers",
       "displayName": "SparkyPowers",
-      "category": "development",
+      "category": "infrastructure",
       "description": "The infrastructure layer of the Nominal plugin family: Terraform/IaC skills, the bundled HashiCorp Terraform MCP, language servers, and The Guide reference library of earned operational wisdom.",
       "source": {
         "source": "github",
