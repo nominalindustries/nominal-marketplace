@@ -4,8 +4,9 @@ The Claude plugin catalog for Nominal Industries. It lists the Nominal plugins s
 
 ## Plugins
 
-- **spicypowers** - the spicy-brain operating layer: communication style, brain-dump intake, status translation, transitions, thread archetypes, tracking artifacts. No code required.
-- **nominalpowers** - the engineering layer: the lead-thread workflow, subagent dispatch, external-validator discipline, staged TDD, and the Nominal Tauri scaffold.
+- **spicypowers** - The spicy-brain operating layer: communication style, brain-dump intake, status translation, transitions, thread archetypes, tracking artifacts. No code required.
+- **nominalpowers** - The engineering layer: the lead-thread workflow, subagent dispatch, external-validator discipline, staged TDD, and the Nominal Tauri scaffold.
+- **sparkypowers** - The infrastructure layer of the Nominal plugin family.
 
 ## Adding this marketplace
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nominal-marketplace",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Nominal Industries plugin catalog: spicypowers (the spicy-brain operating layer) and nominalpowers (the engineering layer).",
   "owner": {
     "name": "Nominal Industries"
