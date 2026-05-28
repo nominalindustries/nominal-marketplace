@@ -26,6 +26,16 @@
         "source": "github",
         "repo": "nominalindustries/nominalpowers"
       }
+    },
+    {
+      "name": "sparkypowers",
+      "displayName": "SparkyPowers",
+      "category": "development",
+      "description": "The infrastructure layer of the Nominal plugin family: Terraform/IaC skills, the bundled HashiCorp Terraform MCP, language servers, and The Guide reference library of earned operational wisdom.",
+      "source": {
+        "source": "github",
+        "repo": "nominalindustries/sparkypowers"
+      }
     }
   ]
 }
